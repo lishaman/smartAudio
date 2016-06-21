@@ -1,0 +1,26 @@
+v1.3.0, 20141202
+changes:
+    1. If no IP is provided to java API, receiver will not receive it, other than 0.0.0.0 received.
+    2. Strip leading and trailing double quotation marks(") only when needed.
+
+v1.3.1, 20150108
+changes:
+    1. turn off jni log
+
+v1.4.0, 20150424
+changes:
+    1. static link with openssl crypto library, to void crash on Android with version below 4.0.
+
+v1.5.0, 20150514
+changes:
+    1. send cooee+neeze on default
+
+v1.6.0, 20150520
+changes:
+    1. fix a bug in v1.5.0 that can't send last byte of cooee sometimes.
+
+v1.7.0, 20150615
+changes:
+    1. set default packet interval to 8ms, and can change it using Cooee.SetPacketInterval(ms)
+
+
